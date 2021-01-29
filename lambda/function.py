@@ -8,8 +8,7 @@ def handler(event, context):
     dynamodb = boto3.client('dynamodb')
 
     # Get Visits
-    response = dynamodb.get_item(
-        TableName='stuartresumecounter', Key={'Site': {'N': '0'}})
+    response = dynamodb.get_item(TableName='stuartsresumecounter', Key={'Site': {'N': '0'}})
 
     visits = int(response["Item"]["Visits"]["N"]) + 1
 
