@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Resources: 
-  TuringResumeCounterDynamodb: 
+  StuartsResumeCounterDynamodb: 
     Type: AWS::DynamoDB::Table
     Properties: 
       AttributeDefinitions: 
@@ -14,4 +14,4 @@ Resources:
       ProvisionedThroughput: 
         ReadCapacityUnits: "1"
         WriteCapacityUnits: "1"
-      TableName: "turingresumecounter"
+      TableName: "stuartsresumecounter"

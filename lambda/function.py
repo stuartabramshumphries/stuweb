@@ -9,12 +9,12 @@ def handler(event, context):
 
     # Get Visits
     response = dynamodb.get_item(
-        TableName='turingresumecounter', Key={'Site': {'N': '0'}})
+        TableName='stuartresumecounter', Key={'Site': {'N': '0'}})
 
     visits = int(response["Item"]["Visits"]["N"]) + 1
 
     # Store Visits
-    dynamodb.put_item(TableName='turingresumecounter', Item={
+    dynamodb.put_item(TableName='stuartresumecounter', Item={
         'Site': {'N': '0'},
         'Visits': {'N': str(visits)}
     })
