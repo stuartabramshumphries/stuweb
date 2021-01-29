@@ -13,7 +13,7 @@ def handler(event, context):
     visits = int(response["Item"]["Visits"]["N"]) + 1
 
     # Store Visits
-    dynamodb.put_item(TableName='stuartresumecounter', Item={
+    dynamodb.put_item(TableName='stuartsresumecounter', Item={
         'Site': {'N': '0'},
         'Visits': {'N': str(visits)}
     })
