@@ -1,5 +1,5 @@
 Core files for my blog:
-https://stuartabramshumphries.com
+https://www.stuartabramshumphries.com
 
 todo:
 
