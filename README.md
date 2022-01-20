@@ -1,7 +1,4 @@
 Core files for my blog:
 https://www.stuartabramshumphries.com
 
-todo:
-
-
-complete git/actions ci/cd 
+CV is written in latex using a yaml base
