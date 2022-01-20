@@ -40,3 +40,5 @@ jobs:
       run: echo ${{ env.BRANCH_NAME }}
     - name: Deploy static site to S3 bucket
       run: aws s3 sync .// s3://stuartcv --delete
+    - name: invalidate cache
+      run: aws cloudfront create-invalidation --distribution-id E2WPKMDC6JNFOP --paths "/*" --profile stumain
