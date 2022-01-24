@@ -88,6 +88,14 @@ education:
   institute: University of Nottingham
 - subject: Physics, PhD, unwritten
   institute: Liverpool University
+- subject: RHCE
+  institute: RedHat
+- subject: Sun Certified Network Administrator
+  institute: Sun Microsystems
+- subject: Puppet Certified Administrator
+  institute: Puppet Labs
+- subject: AWS Certified Cloud Practitioner
+  institute: AWS
   
 # Settings
 mainfont: Crimson
