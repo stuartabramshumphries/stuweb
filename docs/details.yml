@@ -13,75 +13,65 @@ urls:
 
 # Sections
 
-intro: "A Lead DevOps Engineer, with extensive experience in automating a wide variety of environments from small firms with fewer than 100 servers to large companies with tens of thousands of servers. Excellent understanding of the integration between operations teams and developers to ensure quick and efficient delivery of systems and code. Extensive knowledge of all main Linux distros, infrastructure as code, configuration management, developing CI/CD pipelines, containerisation."
+intro: "Senior Devops Engineer, with extensive experience in automating a wide variety of environments from small firms with fewer than 100 servers to large companies with tens of thousands of servers. Excellent understanding of the integration between operations teams and developers to ensure quick and efficient delivery of systems and code. Extensive knowledge of all main Linux distros, infrastructure as code, configuration management, developing CI/CD pipelines, containerisation."
 
 skills:
 - AWS (EC2, IAM, ELB, EBS, EFS, RDS, Route53, S3, VPC, CloudFront, Lambda, CloudWatch, CloudTrail)
 - Ansible, Puppet, Saltstack
-- Bash
-- Continuous Delivery
-- Continuous Integration
-- DevOps
-- Docker
+- Continuous Delivery/Continuous Integration
+- Docker, K8
 - Gitlab, GitHub, Bitbucket
-- Jenkins, SemaphoreCI
-- Linux Admin (RHEL/Ubuntu)
-- Monitoring (Sensu, Nagios, Prometheus)
-- MySQL, Postgres
-- Perl
-- Python
-- Rpm/deb creation
-- Terraform
+- TravisCI, Github actions, Jenkins, SemaphoreCI
+- Terraform, cloudformation
+- Linux Admin (RHEL/Ubuntu/CentOS/Debian)
+- Python, Bash
 
 experience:
-- years: July 2021 – Present
+- years: 10/2022 – Present
+  employer: Digital Ventures Ltd
+  job: Working on several high activity websites (over 1.5 billion views per year). Supporting day to day issues, but also involved in projects such as replicating dev/prod environments onto developers linux/mac desktops using multiple docker containers, also duplicating clustered mysql environments using k8 on dev desktops. Multiple rollouts of code using travis ci, github actions and an initial evaluation of Azure. Environment was hybrid AWS and also large use of Exoscale environments to run several hundred docker containers. Additionally used cloudflare, haproxy, F5, NewRelic. Use ansible for configuration management and terraform for building infrastructure.
+- years: 7/2021 – 9/2022
   employer: PA Consulting
   job: Created a new AWS environment for NIHR via PA Consulting. Designed standards and environment from scratch (EC2, IAM, ELB, EBS, EFS, Aurora RDS, Route53, S3, VPC, Lambda, API Gateway, CloudWatch, CloudTrail, EKS, Fargate, Terraform, cloudformation).  Implemented multiple environments for developers - extensive use of Terraform to create automated rollout of environments. Implemented CI/CD using GitHub Actions, using automated testing and integration with SonarCloud. Enabled automated security monitoring. Configured monitoring systems (cloudwatch/cloudtrail/Prometheus/Grafana. Created custom AMIs using packer, initially using Ubuntu 1804 but then migrating to Amazon Linux 2.0. Integrated systems into Jira, Github, Slack. Optimised environments for cost efficiancy.
-- years: Apr 2021 – July 2021
+- years: 4/2021 – 7/2021
   employer: Accredible
   job: Implementation of CI/CD systems, integrating GitHub, Semaphore CI to provide automated testing and deployments. Implemented infrastructure as code using terraform – existing AWS environment had been manually configured over several years. Enabled automated builds and deployments, improving time to market of code. Built Kubernetes cluster to assist with automated testing and release of code, enabling testers and developers to easily and quickly spin up new environments. Implemented a blue-green deployment approach.  Configured microservices for testing and deployment in Docker containers Day to day support of AWS services, Route53, IAM, EC2, S3, RDS, Security Created a DR site outside of AWS that contained regular backups of code, also regular database dumps Documented environment and provided tuition to other technical members of the team.
-- years: Nov 2020 - Apr 2021
+- years: 11/2020 - 4/2021
   employer: Morgan Stanley
   job: Worked in Alchemy project, assisting migration of tens of thousands of servers from older RHEL and Solaris builds to newer (RHEL 7/8) builds on updated hardware and virtualised environments.  Assisted in development work to automate the migrations using ansible and also creating pipelines in Jenkins to assist in automation of weekend migrations.  Python scripting to simplify workflows and automated decommissioning of hardware.
-- years: Feb 2020 – Nov 2020
+- years: 2/2020 – 11/2020
   employer: Gobsmack
-  job: Responsible for the migration of the AWS environment from an external provider to in-house. Created Gobsmacks DevOps function. All aspects of Infrastructure, including standard builds (for Ubuntu and Centos), security hardening (credit card compliance (PCI DSS)), implemented monitoring, implementation of CI/CD using Jenkins, bitbucket, GitLab, implemented configuration management using ansible. Added secrets/sensitive data to Hashicorp Vault. Automated build of environment using Terraform.
-- years: Jan 2019 – Jan 2020
+  job: Responsible for the migration of the AWS environment from an external provider to in-house. Created Gobsmacks DevOps function. All aspects of Infrastructure, including standard builds (for Ubuntu and Centos), security hardening (credit card compliance (PCI DSS)), implemented monitoring using pagerduty, cloudwatch, implementation of CI/CD using Jenkins, bitbucket, GitLab, implemented configuration management using ansible. Added secrets/sensitive data to Hashicorp Vault. Automated build of environment using Terraform.
+- years: 1/2019 – 1/2020
   employer: Quadrature Capital 
   job: Working on a project to assist migration of legacy configuration management code in Puppet to Salt stack, additional project involved upgrade of main trading servers in several co-los to Ubuntu 1804 and Pacemaker (multiple three node clusters with drbd). Used opportunity to automate configuration of Gitlab and Gitlab runners, also building a highly available remote access solution. Additionally, providing an automated test environment using Docker containers to ensure new code passes at least some basic tests.
-- years: Dec 2017 – Dec 2018
+
+
+
+- years: 12/2017 – 12/2018
   employer: Home Office 
   job: At the Home Office I was responsible for a project to move critical Oracle database servers from an external supplier to AWS. I also built out a new environment in AWS in London (new build from scratch replicating existing environment in Dublin). All AWS configuration was written using Terraform. For the external security testers, I provided a basic K8 environment with bespoke Docker containers to provide isolated environments for penetration testing, additionally secured passwords and keys in Hashicorp vault.
-- years: Aug 2017 – Dec 2017	
+- years: 8/2017 – 12/2017	
   employer: PICO Quantitative Trading
   job: My work involved designing time synchronisation systems that complied with RTS25 standards for financial trading clients. In depth work involved system builds, automation using Ansible and bash/python scripts. Additionally, for long term reporting purposes I built a data collection service in AWS, initially populated by using Amazon Snowball, but then syncing from over 20 remote datacentres to various S3, and automating older data to move to Amazon Glacier. 
-- years: Dec 2016 – Aug 2017 
+- years: 12/2016 – 8/2017 
   employer: HSBC
   job: I was brought in to HSBC to work on a project in the FX pricing team to enable the support work to be offshored to China. To do this work I automated multiple processes and builds to Puppet. Additionally, I configured RunDeck to integrate with the HSBC change management system so that operators could perform approved ad-hoc tasks which I automated using python and bash.  Used TeamCity to test/rollout builds.
-- years: May 2016 – Dec 2016
+- years: 4/2016 – 12/2016
   employer: DWP
   job: At the DWP I was responsible as part of a team for the migration of the systems (140 different Java based microservices) from multiple VMware instances to AWS. AWS configuration was initially done using CloudFormation, however we migrated to using Terraform as environment grew. My initial project work involved moving away from Jenkins/GitHub on physical servers to Docker swarm on AWS, additionally I configured Jenkins to use the AWS EC2 plugin to use larger Amazon instances for some of the bigger testing that needed doing.
-- years: Feb 2016 –May 2016 
+- years: 2/2016 – 4/2016 
   employer: RKR Epsilon
   job: Completely Greenfield site (Prop trading start-up), responsible for install and configuration of entire infrastructure from scratch. I chose Ansible for configuration management of our physical servers as a relatively small, simple environment. I worked alongside developers and quants to ensure automated build/test and deployment of code to trading environment, for this I installed and configured the Atlassian tool suite as management wanted products they could go to for paid support. I installed and configured a continuous integration system– from check-in of code in git, testing in Docker containers and rpm build and release to servers. I also implemented basic Agile environment.  For main non trading infrastructure we used Google Cloud and associated email, documents. 
-- years: Sep 2014 – Jan 2016  
+- years: 9/2014 – 1/2016  
   employer: Worldpay
   job: Large scale migration of applications from RBS legacy hardware to Worldpay new systems. Started with 10s of Red Hat servers – on leaving we had in excess of 4000 nodes built and managed. Initial migration was primarily to VMWare instances, however we influenced Worldpay to move to AWS environment – then started migration to AWS. This allowed large cost savings as we were able to use servers on demand and shutdown out of hours when not being used by development teams. 
-- years: Jun 2013 – Sep 2014  
+- years: 6/2013 – 9/2014  
   employer: Jump Trading
   job: First in-depth exposure to DevOps – large environment of over 3000 servers, all automated using Puppet, Phabricator, GIT. Sat with Developers (Quants) and assisted with day-to-day issues. Primary projects involved migration from Ubuntu to RHEL 7. Small evaluation of AWS for our HPC grid, however this was abandoned after initial testing due to poor (relative) performance of disk i/o at the time with AWS compared to a dedicated clustered filesystem.
-- years: Nov 2010 – Jun 2013 
+- years: 11/2010 – 6/2013 
   employer: Deutsche Bank
   job: Prototyped and piloting of all new technology in low latency trading. Focus on exotic products and solutions. Solaris 10/11 performance comparisons with Linux on x86 hardware. Introduction to engineering environment of DevOps. Puppet and cfengine comparison, roll out of puppet to environment (engineering). Created custom time sync solution – better than 50ns. Engineered and supported Solaris to Red Hat migrations and SuSE to Red Hat migration. 
-- years: May 2010 – Nov 2010
-  employer: RBS Financial Markets
-  job: I was hired at RBS after working there previously, my objective was to introduce Low Latency Trading technology into the bank. I setup an external laboratory with Intel (Fasterlabs) to test new hardware (servers, overclocking, newer Operating systems, 10G cards from Mellanox, SolarFlare and Myricom). Additionally, provided automated testing and configuration for low latency trading systems. 
-- years: Jun 2009 – May 2010
-  employer: Automat Ltd
-  job: Automat was a high frequency trading firm – I was a senior Linux Engineer responsible for all aspects of the environment. Responsible for evaluation and implementation of configuration management system (cfengine – after evaluation of Puppet I found too many bugs with Ruby). Installed Jenkins for developers along with GitLab for a simplified workflow and automated testing. Responsible for rollout of a small HPC grid, using Sun grid engine, Lustre. 
-- years: Apr 1997 – Jun 2009
-  employer: Cobra Business Services
-  job: Cobra Business Services was a Ltd company I started to work with Sun professional services as a UNIX systems administrator, at one-point subcontracting work to several other Unix System Administrators.
 
 education:
 - subject: Physics, BSc, 2:1
@@ -98,8 +88,8 @@ education:
   institute: AWS
   
 # Settings
-mainfont: Crimson
-fontsize: 10pt
+mainfont: Crimson Text
+fontsize: 12pt
 lang: en-GB
 geometry: a4paper, left=35mm, right=35mm, top=51mm, bottom=17mm
 ---
