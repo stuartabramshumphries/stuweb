@@ -27,9 +27,6 @@ skills:
 - Python, Bash
 
 experience:
-- years: 10/2022 – Present
-  employer: Digital Ventures Ltd
-  job: Working on several high activity websites (over 1.5 billion views per year). Supporting day to day issues, but also involved in projects such as replicating dev/prod environments onto developers linux/mac desktops using multiple docker containers, also duplicating clustered mysql environments using k8 on dev desktops. Multiple rollouts of code using travis ci, github actions and an initial evaluation of Azure pipelines. Environment was hybrid AWS and also large use of Exoscale environments to run several hundred docker containers. Additionally used cloudflare, haproxy, F5, NewRelic. Use ansible for configuration management and terraform for building infrastructure.
 - years: 7/2021 – 9/2022
   employer: PA Consulting
   job: Created a new AWS environment for NIHR via PA Consulting. Designed standards and environment from scratch (EC2, IAM, ELB, EBS, EFS, Aurora RDS, Route53, S3, VPC, Lambda, API Gateway, CloudWatch, CloudTrail, EKS, Fargate, Terraform, cloudformation).  Implemented multiple environments for developers - extensive use of Terraform to create automated rollout of environments. Implemented CI/CD using GitHub Actions, using automated testing and integration with SonarCloud. Enabled automated security monitoring. Configured monitoring systems (cloudwatch/cloudtrail/Prometheus/Grafana. Created custom AMIs using packer, initially using Ubuntu 1804 but then migrating to Amazon Linux 2.0. Integrated systems into Jira, Github, Slack. Optimised environments for cost efficiancy.
