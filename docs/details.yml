@@ -1,7 +1,7 @@
 ---
 # Personal details
 name: Stuart Abrams-Humphries
-job: Linux Engineer/DevOps Engineer
+job: DevOps Engineer
 address:
 - London
 - UK
@@ -14,7 +14,7 @@ urls:
 
 # Sections
 
-intro: "Senior Linux/Devops Engineer, with extensive experience in automating a wide variety of environments from small firms with fewer than 100 servers to large companies with tens of thousands of servers. Excellent understanding of the integration between operations teams and developers to ensure quick and efficient delivery of systems and code. Extensive knowledge of all main Linux distros, infrastructure as code, configuration management, developing CI/CD pipelines, containerisation."
+intro: "Devops Engineer, with extensive experience in automating a wide variety of environments from small firms with fewer than 100 servers to large companies with tens of thousands of servers. Excellent understanding of the integration between operations teams and developers to ensure quick and efficient delivery of systems and code. Extensive knowledge of all main Linux distros, infrastructure as code, configuration management, developing CI/CD pipelines, containerisation."
 
 skills:
 - AWS (EC2, IAM, ELB, EBS, EFS, RDS, Route53, S3, VPC, CloudFront, Lambda, CloudWatch, CloudTrail)
