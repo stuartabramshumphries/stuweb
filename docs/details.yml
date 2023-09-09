@@ -17,17 +17,20 @@ urls:
 intro: "Devops Engineer, with extensive experience in automating a wide variety of environments from small firms with fewer than 100 servers to large companies with tens of thousands of servers. Excellent understanding of the integration between operations teams and developers to ensure quick and efficient delivery of systems and code. Extensive knowledge of all main Linux distros, infrastructure as code, configuration management, developing CI/CD pipelines, containerisation."
 
 skills:
-- AWS (EC2, IAM, ELB, EBS, EFS, RDS, Route53, S3, VPC, CloudFront, Lambda, CloudWatch, CloudTrail)
+- Linux Admin (RHEL/Ubuntu/CentOS/Debian), Kickstart, Foreman, SpaceWalk, monitoring (Sensu, Uchiwa, Prometheus, Reimann, splunk), performance  tuning, networking (specifically Arista and Juniper), TCP/IP,DNS, DHCP, Kernel bypass technologies  (Solarflare (onload), Mellanox(vma)), time sync (ntp/ptp), rpm and deb creation, yum and apt repo  creation, zfs, ext, gpfs, ceph, univa grid engine
+- Python, Bash
 - Ansible, Puppet, Saltstack
+- Gitlab, GitHub, Bitbucket
+- AWS (EC2, IAM, ELB, EBS, EFS, RDS, Route53, S3, VPC, CloudFront, Lambda, CloudWatch, CloudTrail)
 - Continuous Delivery/Continuous Integration
 - Docker, K8
-- Gitlab, GitHub, Bitbucket
 - TravisCI, Github actions, Jenkins, SemaphoreCI
 - Terraform, cloudformation
-- Python, Bash
-- Linux Admin (RHEL/Ubuntu/CentOS/Debian), Kickstart, Foreman, SpaceWalk, monitoring (Sensu, Uchiwa, Prometheus, Reimann, splunk), performance  tuning, networking (specifically Arista and Juniper), TCP/IP,DNS, DHCP, Kernel bypass technologies  (Solarflare (onload), Mellanox(vma)), time sync (ntp/ptp), rpm and deb creation, yum and apt repo  creation, zfs, ext, gpfs, ceph, univa grid engine
 
 experience:
+- years  9/2023 - present
+  employer N/A
+  job career break
 - years: 10/2022 – 8/2023
   employer: Digital Ventures Ltd
   job: Working on several high activity websites (over 1.5 billion views per year). Supporting day to day issues, but also involved in projects such as replicating dev/prod environments onto developers linux/mac desktops using multiple docker containers, also duplicating clustered mysql environments using k8 on dev desktops. Multiple rollouts of code using travis ci, github actions and an initial evaluation of Azure pipelines. Testing of Debezium (Kafka) environment for datawharehouse project.  Environment was hybrid AWS and also large use of Exoscale environments to run several hundred docker containers. Additionally used cloudflare, haproxy, F5, NewRelic. Use ansible for configuration management and terraform for building infrastructure.
