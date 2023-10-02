@@ -1,9 +1,9 @@
 ---
 # Personal details
 name: Stuart Abrams-Humphries
-job: Linux Engineer
+job: Unix/Linux Engineer
 address:
-- London
+- Bishops Stortford, Herts
 - UK
 phone: "+44(0)750 005 6831"
 email: stuartabramshumphries@gmail.com
@@ -14,9 +14,9 @@ urls:
 
 # Sections
 
-intro: "Senior Linux Engineer. Over 20 years’ experience in a wide variety of environments from small trading firms with fewer than 100 servers to large banks with tens of thousands of servers.
+intro: "Senior Unix/Linux Engineer. Over 20 years’ experience in a wide variety of environments from small trading firms with fewer than 100 servers to large banks with tens of thousands of servers.
 
-Experience in designing, implementing, and maintaining Linux-based systems. Proven ability to troubleshoot complex problems and deliver high-quality solutions.
+Experience in designing, implementing, and maintaining Unix/Linux-based systems. Proven ability to troubleshoot complex problems and deliver high-quality solutions.
 
  - Managed large Linux infrastructures of 1000+ servers, ensuring maximum uptime.
  - Successfully deployed multiple applications to production environments using ansible/puppet/saltstack
@@ -24,11 +24,12 @@ Experience in designing, implementing, and maintaining Linux-based systems. Prov
  - Collaborated with other engineers to troubleshoot and resolve complex technical issues and performance problems.
  - Mentored and trained junior engineers on Linux administration best practices.
 
-Seeking a challenging position as a Linux Engineer where I can use my skills and experience to make a positive impact."
+Seeking a challenging position as a Unix/Linux Engineer where I can use my skills and experience to make a positive impact."
 
 skills:
 - Linux Admin (RHEL/Ubuntu/CentOS/Debian), Kickstart, Foreman, SpaceWalk, monitoring (Sensu, Uchiwa, Prometheus, Reimann, splunk), performance  tuning, networking (specifically Arista and Juniper), TCP/IP,DNS, DHCP, Kernel bypass technologies  (Solarflare (onload), Mellanox(vma)), time sync (ntp/ptp), rpm and deb creation, yum and apt repo  creation, zfs, ext, gpfs, ceph, univa grid engine
-- Python, Bash
+- Solaris Admin, originally worked on SunOS 4.1.4, migrated to Solaris 2.3, used Solaris 5,7,9 and 11. Experience over a wide range of Sun and Oracle hardware.
+- Python, Bash, Perl
 - Ansible, Puppet, Saltstack
 - Gitlab, GitHub, Bitbucket
 - AWS (EC2, IAM, ELB, EBS, EFS, RDS, Route53, S3, VPC, CloudFront, Lambda, CloudWatch, CloudTrail)
@@ -38,9 +39,6 @@ skills:
 - Terraform, cloudformation
 
 experience:
-- years  9/2023 - present
-  employer N/A
-  job career break
 - years: 10/2022 – 8/2023
   employer: Digital Ventures Ltd
   job: Working on several high activity websites (over 1.5 billion views per year). Supporting day to day issues, but also involved in projects such as replicating dev/prod environments onto developers linux/mac desktops using multiple docker containers, also duplicating clustered mysql environments using k8 on dev desktops. Multiple rollouts of code using travis ci, github actions and an initial evaluation of Azure pipelines. Testing of Debezium (Kafka) environment for datawharehouse project.  Environment was hybrid AWS and also large use of Exoscale environments to run several hundred docker containers. Additionally used cloudflare, haproxy, F5, NewRelic. Use ansible for configuration management and terraform for building infrastructure.
@@ -59,9 +57,6 @@ experience:
 - years: 1/2019 – 1/2020
   employer: Quadrature Capital 
   job: Working on a project to assist migration of legacy configuration management code in Puppet to Salt stack, additional project involved upgrade of main trading servers in several co-los to Ubuntu 1804 and Pacemaker (multiple three node clusters with drbd). Used opportunity to automate configuration of Gitlab and Gitlab runners, also building a highly available remote access solution. Additionally, providing an automated test environment using Docker containers to ensure new code passes at least some basic tests.
-
-
-
 - years: 12/2017 – 12/2018
   employer: Home Office 
   job: At the Home Office I was responsible for a project to move critical Oracle database servers from an external supplier to AWS. I also built out a new environment in AWS in London (new build from scratch replicating existing environment in Dublin). All AWS configuration was written using Terraform. For the external security testers, I provided a basic K8 environment with bespoke Docker containers to provide isolated environments for penetration testing, additionally secured passwords and keys in Hashicorp vault.
@@ -94,6 +89,8 @@ education:
   institute: Liverpool University
 - subject: RHCE
   institute: RedHat
+- subject: Sun Certified Systems Administrator
+  institute: Sun Microsystems
 - subject: Sun Certified Network Administrator
   institute: Sun Microsystems
 - subject: Puppet Certified Administrator
