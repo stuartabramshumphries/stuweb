@@ -1,7 +1,11 @@
 ---
 # Personal details
 name: Stuart Abrams-Humphries
+<<<<<<< HEAD
 job: Unix/Linux Engineer
+=======
+job: Linux Systems Engineer
+>>>>>>> c092a47 (update for linux experience)
 address:
 - Bishops Stortford, Herts
 - UK
@@ -9,12 +13,11 @@ phone: "+44(0)750 005 6831"
 email: stuartabramshumphries@gmail.com
 urls:
 - github.com/stuartabramshumphries
-- stuartabramshumphries.blogspot.co.uk
 - stuartabramshumphries.com
 
 # Sections
 
-intro: "Senior Unix/Linux Engineer. Over 20 years’ experience in a wide variety of environments from small trading firms with fewer than 100 servers to large banks with tens of thousands of servers.
+intro: "Linux Systems Engineer. Over 20 years’ experience in a wide variety of environments from small trading firms with fewer than 100 servers to large banks with tens of thousands of servers.
 
 Experience in designing, implementing, and maintaining Unix/Linux-based systems. Proven ability to troubleshoot complex problems and deliver high-quality solutions.
 
@@ -32,10 +35,10 @@ skills:
 - Python, Bash, Perl
 - Ansible, Puppet, Saltstack
 - Gitlab, GitHub, Bitbucket
+- TravisCI, Github actions, Jenkins, SemaphoreCI, CirclCI
 - AWS (EC2, IAM, ELB, EBS, EFS, RDS, Route53, S3, VPC, CloudFront, Lambda, CloudWatch, CloudTrail)
 - Continuous Delivery/Continuous Integration
 - Docker, K8
-- TravisCI, Github actions, Jenkins, SemaphoreCI
 - Terraform, cloudformation
 
 experience:
@@ -53,7 +56,7 @@ experience:
   job: Worked in Alchemy project, assisting migration of tens of thousands of servers from older RHEL and Solaris builds to newer (RHEL 7/8) builds on updated hardware and virtualised environments.  Assisted in development work to automate the migrations using ansible and also creating pipelines in Jenkins to assist in automation of weekend migrations.  Python scripting to simplify workflows and automated decommissioning of hardware.
 - years: 2/2020 – 11/2020
   employer: Gobsmack
-  job: Responsible for the migration of the AWS environment from an external provider to in-house. Created Gobsmacks DevOps function. All aspects of Infrastructure, including standard builds (for Ubuntu and Centos), security hardening (credit card compliance (PCI DSS)), implemented monitoring using pagerduty, cloudwatch, implementation of CI/CD using Jenkins, bitbucket, GitLab, implemented configuration management using ansible. Added secrets/sensitive data to Hashicorp Vault. Automated build of environment using Terraform.
+  job: Responsible for the migration of the AWS environment from an external provider to in-house. Created Gobsmacks Linux Systems function. All aspects of Infrastructure, including standard builds (for Ubuntu and Centos), security hardening (credit card compliance (PCI DSS)), implemented monitoring using pagerduty, cloudwatch, implementation of CI/CD using Jenkins, bitbucket, GitLab, implemented configuration management using ansible. Added secrets/sensitive data to Hashicorp Vault. Automated build of environment using Terraform.
 - years: 1/2019 – 1/2020
   employer: Quadrature Capital 
   job: Working on a project to assist migration of legacy configuration management code in Puppet to Salt stack, additional project involved upgrade of main trading servers in several co-los to Ubuntu 1804 and Pacemaker (multiple three node clusters with drbd). Used opportunity to automate configuration of Gitlab and Gitlab runners, also building a highly available remote access solution. Additionally, providing an automated test environment using Docker containers to ensure new code passes at least some basic tests.
@@ -77,10 +80,10 @@ experience:
   job: Large scale migration of applications from RBS legacy hardware to Worldpay new systems. Started with 10s of Red Hat servers – on leaving we had in excess of 4000 nodes built and managed. Initial migration was primarily to VMWare instances, however we influenced Worldpay to move to AWS environment – then started migration to AWS. This allowed large cost savings as we were able to use servers on demand and shutdown out of hours when not being used by development teams. 
 - years: 6/2013 – 9/2014  
   employer: Jump Trading
-  job: First in-depth exposure to DevOps – large environment of over 3000 servers, all automated using Puppet, Phabricator, GIT. Sat with Developers (Quants) and assisted with day-to-day issues. Primary projects involved migration from Ubuntu to RHEL 7. Small evaluation of AWS for our HPC grid, however this was abandoned after initial testing due to poor (relative) performance of disk i/o at the time with AWS compared to a dedicated clustered filesystem.
+  job: First in-depth exposure to Linux Systems – large environment of over 3000 servers, all automated using Puppet, Phabricator, GIT. Sat with Developers (Quants) and assisted with day-to-day issues. Primary projects involved migration from Ubuntu to RHEL 7. Small evaluation of AWS for our HPC grid, however this was abandoned after initial testing due to poor (relative) performance of disk i/o at the time with AWS compared to a dedicated clustered filesystem.
 - years: 11/2010 – 6/2013 
   employer: Deutsche Bank
-  job: Prototyped and piloting of all new technology in low latency trading. Focus on exotic products and solutions. Solaris 10/11 performance comparisons with Linux on x86 hardware. Introduction to engineering environment of DevOps. Puppet and cfengine comparison, roll out of puppet to environment (engineering). Created custom time sync solution – better than 50ns. Engineered and supported Solaris to Red Hat migrations and SuSE to Red Hat migration. 
+  job: Prototyped and piloting of all new technology in low latency trading. Focus on exotic products and solutions. Solaris 10/11 performance comparisons with Linux on x86 hardware. Introduction to engineering environment of Linux Systems. Puppet and cfengine comparison, roll out of puppet to environment (engineering). Created custom time sync solution – better than 50ns. Engineered and supported Solaris to Red Hat migrations and SuSE to Red Hat migration. 
 
 education:
 - subject: Physics, BSc, 2:1
