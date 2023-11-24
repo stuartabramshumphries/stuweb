@@ -1,7 +1,7 @@
 ---
 # Personal details
 name: Stuart Abrams-Humphries
-job: DevOps Engineer
+job: Linux Engineer
 address:
 - Bishops Stortford, Herts
 - UK
@@ -13,19 +13,29 @@ urls:
 
 # Sections
 
-intro: "
-DevOps Engineer with 5+ years of experience in implementing and managing CI/CD pipelines, infrastructure as code, and cloud platforms. Skilled in automation tools such as Jenkins, Git, Puppet and Ansible. Proficient in AWS and some experience with Azure. Strong knowledge of scripting languages such as Python and Bash. Passionate about optimizing software development processes and delivering high-quality software products.
-"
+intro: "Linux Systems Engineer. Over 20 years’ experience in a wide variety of environments from small trading firms with fewer than 100 servers to large banks with tens of thousands of servers.
+
+Experience in designing, implementing, and maintaining Unix/Linux-based systems. Proven ability to troubleshoot complex problems and deliver high-quality solutions.
+
+ - Managed large Linux infrastructures of 1000+ servers, ensuring maximum uptime.
+ - Successfully deployed multiple applications to production environments using ansible/puppet/saltstack
+ - Developed and implemented security policies and procedures to protect Linux systems from cyberattacks, ensured compliance with standards.
+ - Collaborated with other engineers to troubleshoot and resolve complex technical issues and performance problems.
+ - Mentored and trained junior engineers on Linux administration best practices.
+
+Seeking a challenging position as a Unix/Linux Engineer where I can use my skills and experience to make a positive impact."
+
 skills:
-- AWS (EC2, IAM, ELB, EBS, EFS, RDS, Route53, S3, VPC, CloudFront, Lambda, CloudWatch, CloudTrail)
+- Linux Admin (RHEL/Ubuntu/CentOS/Debian), Kickstart, Foreman, SpaceWalk, monitoring (Sensu, Uchiwa, Prometheus, Reimann, splunk), performance  tuning, networking (specifically Arista and Juniper), TCP/IP,DNS, DHCP, Kernel bypass technologies  (Solarflare (onload), Mellanox(vma)), time sync (ntp/ptp), rpm and deb creation, yum and apt repo  creation, zfs, ext, gpfs, ceph, univa grid engine
+- Solaris Admin, originally worked on SunOS 4.1.4, migrated to Solaris 2.3, used Solaris 5,7,9 and 11. Experience over a wide range of Sun and Oracle hardware.
+- Python, Bash, Perl
+- Ansible, Puppet, Saltstack
 - Gitlab, GitHub, Bitbucket
 - TravisCI, Github actions, Jenkins, SemaphoreCI, CirclCI
+- AWS (EC2, IAM, ELB, EBS, EFS, RDS, Route53, S3, VPC, CloudFront, Lambda, CloudWatch, CloudTrail)
 - Continuous Delivery/Continuous Integration
 - Docker, K8
 - Terraform, cloudformation
-- Ansible, Puppet, Saltstack
-- Python, Bash, Perl
-- Linux Admin (RHEL/Ubuntu/CentOS/Debian), Kickstart, Foreman, SpaceWalk, monitoring (Sensu, Uchiwa, Prometheus, Reimann, splunk), performance  tuning, networking (specifically Arista and Juniper), TCP/IP,DNS, DHCP, Kernel bypass technologies  (Solarflare (onload), Mellanox(vma)), time sync (ntp/ptp), rpm and deb creation, yum and apt repo  creation, zfs, ext, gpfs, ceph, univa grid engine
 
 experience:
 - years: 10/2022 – 8/2023
