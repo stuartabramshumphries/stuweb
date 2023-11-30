@@ -43,4 +43,4 @@ jobs:
       run: aws s3 sync .// s3://stuartcv --delete
 
     - name: invalidate cache
-      run: aws cloudfront create-invalidation --distribution-id E2WPKMDC6JNFOP --paths "/*"
+      run: aws cloudfront create-invalidation --distribution-id EJ6Q9WP0LKIWE --paths "/*"
