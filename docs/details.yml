@@ -12,9 +12,7 @@ urls:
 - www.linkedin.com/in/saaah/
 # Sections
 
-intro: "
-DevOps Engineer with 5+ years of experience in implementing and managing CI/CD pipelines, infrastructure as code, and cloud platforms. Skilled in automation tools such as Jenkins, Git, Puppet and Ansible. Proficient in AWS and some experience with Azure. Strong knowledge of scripting languages such as Python and Bash. Passionate about optimizing software development processes and delivering high-quality software products.
-"
+intro: "Passionate about leveraging cutting-edge technologies to optimize development workflows, enhance system reliability, and drive continuous improvement. With a background in both software development and IT operations, I bring a holistic approach to DevOps, fostering collaboration between teams and implementing robust solutions. Proven track record in designing and implementing scalable, resilient, and secure cloud architectures. Automating repetitive tasks to streamline workflows and reduce time-to-market. Collaborating with cross-functional teams to ensure seamless integration of DevOps best practices."
 skills:
 - AWS (EC2, IAM, ELB, EBS, EFS, RDS, Route53, S3, VPC, CloudFront, Lambda, CloudWatch, CloudTrail)
 - Gitlab, GitHub, Bitbucket
@@ -65,10 +63,10 @@ experience:
   job: Large scale migration of applications from RBS legacy hardware to Worldpay new systems. Started with 10s of Red Hat servers – on leaving we had in excess of 4000 nodes built and managed. Initial migration was primarily to VMWare instances, however we influenced Worldpay to move to AWS environment – then started migration to AWS. This allowed large cost savings as we were able to use servers on demand and shutdown out of hours when not being used by development teams. 
 - years: 6/2013 – 9/2014  
   employer: Jump Trading
-  job: First in-depth exposure to Linux Systems – large environment of over 3000 servers, all automated using Puppet, Phabricator, GIT. Sat with Developers (Quants) and assisted with day-to-day issues. Primary projects involved migration from Ubuntu to RHEL 7. Small evaluation of AWS for our HPC grid, however this was abandoned after initial testing due to poor (relative) performance of disk i/o at the time with AWS compared to a dedicated clustered filesystem.
+  job: First in-depth exposure to DevOps – large environment of over 3000 servers, all automated using Puppet, Phabricator, GIT. Sat with Developers (Quants) and assisted with day-to-day issues. Primary projects involved migration from Ubuntu to RHEL 7. Small evaluation of AWS for our HPC grid, however this was abandoned after initial testing due to poor (relative) performance of disk i/o at the time with AWS compared to a dedicated clustered filesystem.
 - years: 11/2010 – 6/2013 
   employer: Deutsche Bank
-  job: Prototyped and piloting of all new technology in low latency trading. Focus on exotic products and solutions. Solaris 10/11 performance comparisons with Linux on x86 hardware. Introduction to engineering environment of Linux Systems. Puppet and cfengine comparison, roll out of puppet to environment (engineering). Created custom time sync solution – better than 50ns. Engineered and supported Solaris to Red Hat migrations and SuSE to Red Hat migration. 
+  job: Prototyped and piloting of all new technology in low latency trading. Focus on exotic products and solutions. Solaris 10/11 performance comparisons with Linux on x86 hardware. Introduction to engineering environment of Linux Systems. Puppet and cfengine comparison, roll out of puppet to environment (engineering). Created custom time sync solution – better than 50ns. Engineered and supported Solaris to Red Hat migrations and SuSE to Red Hat migration. Installed first puppet environment in DB, used to configure engineering systems.
 
 education:
 - subject: Physics, BSc, 2:1
