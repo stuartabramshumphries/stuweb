@@ -9,21 +9,14 @@ phone: "+44(0)750 005 6831"
 email: stuartabramshumphries@gmail.com
 urls:
 - github.com/stuartabramshumphries
-- stuartabramshumphries.com
+- linkedin.com/in/saaah
 
 # Sections
 
-intro: "Linux Systems Engineer. Over 20 years’ experience in a wide variety of environments from small trading firms with fewer than 100 servers to large banks with tens of thousands of servers.
+intro: "Experienced Linux administrator with over 20 years of experience in managing complex, mission-critical Linux environments (RHEL/CentOS/Ubuntu). Expertise in system architecture, automation, security, and performance optimization. Proven track record of implementing innovative solutions to improve operational efficiency and reliability.
 
-Experience in designing, implementing, and maintaining Unix/Linux-based systems. Proven ability to troubleshoot complex problems and deliver high-quality solutions.
+Experience in designing, implementing, and maintaining Unix/Linux-based systems. Proven ability to troubleshoot complex problems and deliver high-quality solutions."
 
- - Managed large Linux infrastructures of 1000+ servers, ensuring maximum uptime.
- - Successfully deployed multiple applications to production environments using ansible/puppet/saltstack
- - Developed and implemented security policies and procedures to protect Linux systems from cyberattacks, ensured compliance with standards.
- - Collaborated with other engineers to troubleshoot and resolve complex technical issues and performance problems.
- - Mentored and trained junior engineers on Linux administration best practices.
-
-Seeking a challenging position as a Unix/Linux Engineer where I can use my skills and experience to make a positive impact."
 
 skills:
 - Linux Admin (RHEL/Ubuntu/CentOS/Debian), Kickstart, Foreman, SpaceWalk, monitoring (Sensu, Uchiwa, Prometheus, Reimann, splunk), performance  tuning, networking (specifically Arista and Juniper), TCP/IP,DNS, DHCP, Kernel bypass technologies  (Solarflare (onload), Mellanox(vma)), time sync (ntp/ptp), rpm and deb creation, yum and apt repo  creation, zfs, ext, gpfs, ceph, univa grid engine
@@ -36,8 +29,16 @@ skills:
 - Continuous Delivery/Continuous Integration
 - Docker, K8
 - Terraform, cloudformation
+- Managed large Linux infrastructures of 1000+ servers, ensuring maximum uptime.
+- Successfully deployed multiple applications to production environments using ansible/puppet/saltstack
+- Developed and implemented security policies and procedures to protect Linux systems from cyberattacks, ensured compliance with standards.
+- Collaborated with other engineers to troubleshoot and resolve complex technical issues and performance problems.
+- Mentored and trained junior engineers on Linux administration best practices.
 
 experience:
+- years: 8/2023 – present
+  employer: Garden Leave
+  job: time off, travelling, walking, learning
 - years: 10/2022 – 8/2023
   employer: Digital Ventures Ltd
   job: Working on several high activity websites (over 1.5 billion views per year). Supporting day to day issues, but also involved in projects such as replicating dev/prod environments onto developers linux/mac desktops using multiple docker containers, also duplicating clustered mysql environments using k8 on dev desktops. Multiple rollouts of code using travis ci, github actions and an initial evaluation of Azure pipelines. Testing of Debezium (Kafka) environment for datawharehouse project.  Environment was hybrid AWS and also large use of Exoscale environments to run several hundred docker containers. Additionally used cloudflare, haproxy, F5, NewRelic. Use ansible for configuration management and terraform for building infrastructure.
