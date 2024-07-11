@@ -16,11 +16,11 @@ intro: "Passionate about leveraging cutting-edge technologies to optimize develo
 skills:
 - AWS (EC2, IAM, ELB, EBS, EFS, RDS, Route53, S3, VPC, CloudFront, Lambda, CloudWatch, CloudTrail)
 - Gitlab, GitHub, Bitbucket
-- TravisCI, Github actions, Jenkins, SemaphoreCI, CirclCI
+- TravisCI, Github actions, Jenkins, SemaphoreCI, CircleCI, Bamboo, Artifactory
 - Continuous Delivery/Continuous Integration
 - Docker, K8
 - Terraform, cloudformation
-- Ansible, Puppet, Saltstack
+- Ansible, Puppet, Saltstack, RunDeck, Ansible Tower
 - Python, Bash, Perl
 - Linux Admin (RHEL/Ubuntu/CentOS/Debian), Kickstart, Foreman, SpaceWalk, monitoring (Sensu, Uchiwa, Prometheus, Reimann, splunk), performance  tuning, networking (specifically Arista and Juniper), TCP/IP,DNS, DHCP, Kernel bypass technologies  (Solarflare (onload), Mellanox(vma)), time sync (ntp/ptp), rpm and deb creation, yum and apt repo  creation, zfs, ext, gpfs, ceph, univa grid engine
 
@@ -39,7 +39,7 @@ experience:
   job: Worked in Alchemy project, assisting migration of tens of thousands of servers from older RHEL and Solaris builds to newer (RHEL 7/8) builds on updated hardware and virtualised environments.  Assisted in development work to automate the migrations using ansible and also creating pipelines in Jenkins to assist in automation of weekend migrations.  Python scripting to simplify workflows and automated decommissioning of hardware.
 - years: 2/2020 – 11/2020
   employer: Gobsmack
-  job: Responsible for the migration of the AWS environment from an external provider to in-house. Created Gobsmacks Linux Systems function. All aspects of Infrastructure, including standard builds (for Ubuntu and Centos), security hardening (credit card compliance (PCI DSS)), implemented monitoring using pagerduty, cloudwatch, implementation of CI/CD using Jenkins, bitbucket, GitLab, implemented configuration management using ansible. Added secrets/sensitive data to Hashicorp Vault. Automated build of environment using Terraform.
+  job: Responsible for the migration of the AWS environment from an external provider to in-house. Created Gobsmacks Linux Systems function. All aspects of Infrastructure, including standard builds (for Ubuntu and Centos), security hardening (credit card compliance (PCI DSS)), implemented monitoring using pagerduty, cloudwatch, implementation of CI/CD using Jenkins, bitbucket, GitLab, implemented configuration management using ansible and ansible tower. Added secrets/sensitive data to Hashicorp Vault. Automated build of environment using Terraform.
 - years: 1/2019 – 1/2020
   employer: Quadrature Capital 
   job: Working on a project to assist migration of legacy configuration management code in Puppet to Salt stack, additional project involved upgrade of main trading servers in several co-los to Ubuntu 1804 and Pacemaker (multiple three node clusters with drbd). Used opportunity to automate configuration of Gitlab and Gitlab runners, also building a highly available remote access solution. Additionally, providing an automated test environment using Docker containers to ensure new code passes at least some basic tests.
@@ -51,7 +51,7 @@ experience:
   job: My work involved designing time synchronisation systems that complied with RTS25 standards for financial trading clients. In depth work involved system builds, automation using Ansible and bash/python scripts. Additionally, for long term reporting purposes I built a data collection service in AWS, initially populated by using Amazon Snowball, but then syncing from over 20 remote datacentres to various S3, and automating older data to move to Amazon Glacier. 
 - years: 12/2016 – 8/2017 
   employer: HSBC
-  job: I was brought in to HSBC to work on a project in the FX pricing team to enable the support work to be offshored to China. To do this work I automated multiple processes and builds to Puppet. Additionally, I configured RunDeck to integrate with the HSBC change management system so that operators could perform approved ad-hoc tasks which I automated using python and bash.  Used TeamCity to test/rollout builds.
+  job: I was brought in to HSBC to work on a project in the FX pricing team to enable the support work to be offshored to China. To do this work I automated multiple processes and builds to Puppet. Additionally, I configured RunDeck to integrate with the HSBC change management system so that operators could perform approved ad-hoc tasks which I automated using python and bash. Migrated from RunDeck to Ansible Tower so as to integrate with the Windows system more easily. Used TeamCity to test/rollout builds.
 - years: 4/2016 – 12/2016
   employer: DWP
   job: At the DWP I was responsible as part of a team for the migration of the systems (140 different Java based microservices) from multiple VMware instances to AWS. AWS configuration was initially done using CloudFormation, however we migrated to using Terraform as environment grew. My initial project work involved moving away from Jenkins/GitHub on physical servers to Docker swarm on AWS, additionally I configured Jenkins to use the AWS EC2 plugin to use larger Amazon instances for some of the bigger testing that needed doing.
